@@ -1,0 +1,62 @@
+.courses {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+    /* To hover the element of first page */
+ 
+  /* Code for styling of cources*/
+  .courses a.btech, a.mtech,a.bca,a.bsc,a.bpharm,a.bed,a.mba,a.ba,a.llb,a.bcom,a.bba,a.mba {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 8px;
+    text-decoration:rgb(20, 135, 236);
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+  .courses a{
+    background-color:#006863;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+  .courses a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 5px rgb(15, 184, 0);
+  }
+  
+  
+  /**********************Code For B.Tech Branches*********************/
+  
+  .Branches a{
+    float: left;
+    color: #f30000;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration:rgb(20, 135, 236);
+    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    background-color: #006863;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 30px;
+    font-family:monospace;
+    padding-top: 50px;
+  }
+  .Branches a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    box-shadow: -1px -1px 1px rgb(255, 0, 0);
+  }
+  .Branches p{
+    margin-left:1%;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 30px ;
+    font-weight: 200;
+    font-variant: small-caps;
+  }
